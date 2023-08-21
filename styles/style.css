@@ -175,7 +175,7 @@ img.header__logo-image {
     padding: 0 0 26px 40px;
   }
 
-  .lots__card-list{
+  .lots__card-list {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
@@ -354,7 +354,6 @@ a.footer-link_active {
 .footer__social-list {
     list-style-type: none;
     display: inline-flex;
-    list-style-type: none;
     gap: 47px;
     width: 240px;
     height: 35px;
