@@ -67,12 +67,6 @@ a.header-link_active {
     margin: auto;
 }
 
-a.header__logo-image {
-  width: 92.5%;
-  margin: -7px 48px 0 -98px;
-}
-
-
 .line {
   border-bottom: 1px solid #000;
   line-height: normal;
