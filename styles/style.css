@@ -67,6 +67,13 @@ a.header-link_active {
     margin: auto;
 }
 
+.header__logo-image img{
+    align-items: stretch;
+    display: flex;
+    margin: -7px 0px 0px -97px;
+    width: 92%;
+}
+
 .line {
   border-bottom: 1px solid #000;
   line-height: normal;
@@ -346,14 +353,19 @@ a.footer-link_active {
 }
 
 .footer__social-list {
-    list-style-type: none;
-    display: inline-flex;
-    gap: 47px;
-    width: 240px;
-    height: 35px;
+  display: inline-flex;
+  list-style-type: none;
+  gap: 47px;
+  width: 18%;
+}
+
+.footer__social-list-item {
+  display: flex;
+  align-items: flex-start;
 }
 
 .footer__social-icon {
     display: flex;
     flex-direction: column;
+    padding-top: 1px;
 }
