@@ -1,1 +1,1 @@
-https://github.com/ksenyacola/ono_tebe_nado
+https://github.com/ksenyacola/ono-tebe-nado
