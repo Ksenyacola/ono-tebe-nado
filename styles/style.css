@@ -290,13 +290,13 @@ a.card_link {
 .about__logo-image {
     width: 148px;
     height: 114px;
-    margin: 64px 46px;
+    margin: 62px 46px;
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
-    margin: 0 50px 0 50px;
+    margin: 0 50px 90px 50px;
 }
 
 .footer__menu {
