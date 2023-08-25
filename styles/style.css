@@ -1,4 +1,4 @@
-h3 {
+.lots__heading, .about__title {
     color: #000;
     font-size: 40px;
     font-weight: 700;
@@ -6,12 +6,7 @@ h3 {
     text-transform: uppercase;
 }
 
-a {
-  font-weight: 400;
-  line-height: 22px;
-}
-
-address {
+.address {
     color: #000;
     font-style: normal;
     font-size: 18px;
@@ -167,8 +162,7 @@ a.header-link_active {
   }
 
   .lots {
-    margin: -5px 50px 181px 50px;
-    min-height: 579px;
+    margin: -5px 50px 183px 50px;
     min-width: 1340px;
   }
 
@@ -201,27 +195,20 @@ a.header-link_active {
     margin-bottom: 29px;
     position: relative;
     z-index:1;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
 
   .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    min-height: 450px;
-    min-width: 430px;
   }
 
   .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
   }
 
   .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: 100%;
   }
 
 a.card_link {
@@ -254,19 +241,16 @@ a.card_link {
     line-height: 24px;
   }
 
-  .lots__look-more-link a {
-    text-decoration: none;
-  }
-
   .lots__look-more-link {
     margin: 2px 0 0 40px;
     color: #000;
     font-size: 20px;
     font-weight: 400;
+    text-decoration: none;
   }
 
   .about {
-    margin: 0 50px 177px 50px;
+    margin: 0 50px 179px 50px;
   }
 
   .about__column {
@@ -306,10 +290,8 @@ a.card_link {
 .about__logo-image {
     width: 148px;
     height: 114px;
-    margin: 61px 46px;
+    margin: 64px 46px;
 }
-
-
 
 .footer {
     display: flex;
